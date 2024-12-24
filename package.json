@@ -1,0 +1,24 @@
+{
+  "name": "navidadjuntos",
+  "version": "1.0.0",
+  "description": "Navidad con mi peque",
+  "homepage": "https://github.com/AndreHermoza/NavidadJuntos#readme",
+  "bugs": {
+    "url": "https://github.com/AndreHermoza/NavidadJuntos/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreHermoza/NavidadJuntos.git"
+  },
+  "license": "ISC",
+  "author": "Andre Hermoza",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
