@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const ip = '98.85.28.8';
 
 app.use(express.static('public'));
 
@@ -10,6 +11,6 @@ app.get('/', (req, res)=> {
 
 
 app.listen(port, () => {
-    console.log(`Servidor corriendo en http://localhost:${port}`)
+    console.log(`Servidor corriendo en http://${ip}:${port}`)
 })
 
